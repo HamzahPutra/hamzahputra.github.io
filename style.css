@@ -6,6 +6,24 @@ body {
 	padding-top: 6rem;
 	background-color: #e2edff;
 }
+.btn-kirim {
+  /* Pengaturan tombol standar di sini */
+}
+
+/* --- Media Query Khusus Mobile (Taruh di Paling Bawah) --- */
+@media (max-width: 767px) {
+  .btn-kirim, .btn-loading {
+    width: 100%; 
+    padding: 12px;
+    font-weight: bold; /* Tambahan: Biar teks tombol makin jelas di HP */
+  }
+
+  /* Kamu juga bisa tambahkan spasi antar section di sini agar tidak sesak */
+  section {
+    padding-top: 4rem; 
+    padding-bottom: 4rem;
+  }
+}
 
 #projects {
 	background-color: #e2edff;
